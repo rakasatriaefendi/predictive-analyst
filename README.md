@@ -46,7 +46,7 @@ Dataset diambil dari Kaggle, dipublikasikan oleh niyarrbarman ([link dataset](ht
 
 ### Exploratory Data Analysis (EDA)
 - **Distribusi Kelas**: ![Label Penyakit](images/gambar-distribusi-label-penyakit.png) menunjukkan distribusi kelas yang cukup seimbang.
-- **Analisis Gejala**: ![Wordcloud Gejala](images/gambar-word-cloud-gejala.png) menunjukkan kata-kata kunci seperti "pain", "fever", dan "itching" yang sering muncul.
+- **Analisis Gejala**: ![Wordcloud Gejala](images/gambar-word-cloud-gejala.png) menunjukkan kata-kata kunci seperti "skin", "lotfeel", dan "experience" yang sering muncul.
 - **Jumlah Kelas**: 24 penyakit unik diidentifikasi, dengan beberapa penyakit memiliki gejala tumpang tindih (misalnya, GERD dan Peptic Ulcer).
 
 ### Data Quality Verification
@@ -98,12 +98,18 @@ SVM dengan tuning Optuna dipilih karena:
 - Konsistensi tinggi di semua kelas.
 - Minim kesalahan pada penyakit penting seperti diabetes dan psoriasis.
 
-[gambar perbandingan akurasi model]
+![Perbandingan Akurasi Model](images/)
 
 ## Evaluation
 ### Metrik Evaluasi
-- **Confusion Matrix**: [gambar confusion matrix SVM] menunjukkan klasifikasi sempurna pada 21 dari 24 penyakit.
-- **Classification Report**: [gambar tabel classification report] menunjukkan precision, recall, dan F1-score rata-rata 98.32% untuk SVM.
+- **Confusion Matrix**: ![Confussion Matrix](images/confussion-matrix.png)
+
+  menunjukkan klasifikasi sempurna pada 21 dari 24 penyakit.
+
+  
+- **Classification Report**: ![Classification Report](images/classification-report.png)
+
+  menunjukkan precision, recall, dan F1-score rata-rata 98.32% untuk SVM.
 - **Cross-Validation**: Akurasi rata-rata SVM sebesar 98.23% pada 5-fold cross-validation.
 
 ### Studi Kasus
