@@ -98,16 +98,20 @@ SVM dengan tuning Optuna dipilih karena:
 - Konsistensi tinggi di semua kelas.
 - Minim kesalahan pada penyakit penting seperti diabetes dan psoriasis.
 
-![Perbandingan Akurasi Model](images/)
+![Perbandingan Akurasi Model](images/perbandingan-akurasi-model.png)
 
 ## Evaluation
 ### Metrik Evaluasi
-- **Confusion Matrix**: ![Confussion Matrix](images/confussion-matrix.png)
+- **Confusion Matrix**:
+
+  ![Confussion Matrix](images/confussion-matrix.png)
 
   menunjukkan klasifikasi sempurna pada 21 dari 24 penyakit.
 
   
-- **Classification Report**: ![Classification Report](images/classification-report.png)
+- **Classification Report**:
+
+  ![Classification Report](images/classification-report.png)
 
   menunjukkan precision, recall, dan F1-score rata-rata 98.32% untuk SVM.
 - **Cross-Validation**: Akurasi rata-rata SVM sebesar 98.23% pada 5-fold cross-validation.
