@@ -45,8 +45,8 @@ Dataset diambil dari Kaggle, dipublikasikan oleh niyarrbarman ([link dataset](ht
 - **text**: Deskripsi gejala dalam teks.
 
 ### Exploratory Data Analysis (EDA)
-- **Distribusi Kelas**: [gambar distribusi label penyakit] menunjukkan distribusi kelas yang cukup seimbang.
-- **Analisis Gejala**: [gambar word cloud gejala] menunjukkan kata-kata kunci seperti "pain", "fever", dan "itching" yang sering muncul.
+- **Distribusi Kelas**: ![Label Penyakit](images/gambar-distribusi-label-penyakit.png) menunjukkan distribusi kelas yang cukup seimbang.
+- **Analisis Gejala**: ![Wordcloud Gejala](images/gambar-word-cloud-gejala.png) menunjukkan kata-kata kunci seperti "pain", "fever", dan "itching" yang sering muncul.
 - **Jumlah Kelas**: 24 penyakit unik diidentifikasi, dengan beberapa penyakit memiliki gejala tumpang tindih (misalnya, GERD dan Peptic Ulcer).
 
 ### Data Quality Verification
@@ -67,7 +67,7 @@ Dataset diambil dari Kaggle, dipublikasikan oleh niyarrbarman ([link dataset](ht
 ### Normalisasi
 - Fitur numerik (panjang teks dan jumlah kata) dinormalisasi menggunakan `MinMaxScaler` untuk menyeragamkan skala.
 
-[gambar pipeline data preparation]
+![Pipeline](images/pipeline.png)
 
 ## Modeling
 ### 1. Algoritma Support Vector Machine (SVM)
